@@ -1,6 +1,6 @@
 # Jobie PWA
 
-PWA funcional de portal de vagas para candidatos, inspirado visualmente no template mobile Jobie. A interface foi reconstruída em português sem utilizar imagens ou arquivos proprietários do template original.
+Site PWA funcional de portal de vagas para candidatos, inspirado visualmente no template Jobie. A aplicação ocupa toda a janela do navegador e adapta navegação, conteúdo e grades para celular, tablet e desktop — sem moldura ou simulação de aparelho.
 
 ## O que está funcionando
 
@@ -14,7 +14,8 @@ PWA funcional de portal de vagas para candidatos, inspirado visualmente no templ
 - candidatura rápida com confirmação de consentimento;
 - acompanhamento das etapas das candidaturas;
 - perfil, currículo e indicador de completude;
-- navegação responsiva para celular e desktop;
+- layout full-screen responsivo para celular, tablet e desktop;
+- navegação lateral no desktop e inferior no celular;
 - manifesto de instalação;
 - Service Worker, cache do app shell e página offline;
 - indicação de conexão online/offline;
