@@ -16,32 +16,13 @@
 </head>
 <body>
   <div class="app-layout">
-    <aside class="desktop-panel" aria-label="Apresentação do Jobie">
-      <a class="desktop-brand" href="#/home">
-        <span class="brand-mark">J</span>
-        <span>jobie</span>
-      </a>
-      <div class="desktop-copy">
-        <span class="desktop-pill">Seu próximo passo profissional</span>
-        <h1>O trabalho certo pode mudar tudo.</h1>
-        <p>Descubra oportunidades, candidate-se em poucos passos e acompanhe cada etapa da sua jornada profissional.</p>
-        <div class="desktop-points">
-          <span><i>✓</i> Vagas selecionadas para o seu perfil</span>
-          <span><i>✓</i> Candidatura rápida e organizada</span>
-          <span><i>✓</i> Acompanhamento em tempo real</span>
-        </div>
-      </div>
-      <div class="desktop-orbit orbit-one"></div>
-      <div class="desktop-orbit orbit-two"></div>
-      <small class="desktop-note">Jobie PWA · versão demonstrativa funcional</small>
-    </aside>
-
-    <main class="phone-shell">
+    <main class="app-shell">
       <div id="network-status" class="network-status" role="status"></div>
 
       <section id="view" class="view" aria-live="polite"></section>
 
       <nav id="bottom-nav" class="bottom-nav" aria-label="Navegação principal">
+        <a class="nav-brand" href="#/home" aria-label="Jobie — início"><span class="brand-mark">J</span><strong>jobie</strong></a>
         <button data-route="home" class="active">
           <span><svg class="icon" aria-hidden="true"><use href="#i-home"></use></svg></span>
           <small>Início</small>
@@ -58,6 +39,7 @@
           <span><svg class="icon" aria-hidden="true"><use href="#i-user"></use></svg></span>
           <small>Perfil</small>
         </button>
+        <span class="nav-spacer" aria-hidden="true"></span>
       </nav>
 
       <div id="modal" class="modal" aria-hidden="true">
